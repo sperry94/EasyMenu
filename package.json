@@ -1,0 +1,21 @@
+{
+  "name": "easy-menu",
+  "version": "1.0.0",
+  "description": "An application to allow users to search for the most popular dishes at restaurants.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Seth Perry",
+  "license": "ISC",
+  "dependencies": {
+    "browserify": "^13.0.1",
+    "express": "^4.13.4",
+    "gulp": "^3.9.1",
+    "node-uuid": "^1.4.7",
+    "react": "^15.1.0",
+    "react-dom": "^15.1.0",
+    "reactify": "^1.1.1",
+    "vinyl-source-stream": "^1.1.0"
+  }
+}

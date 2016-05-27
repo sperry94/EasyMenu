@@ -1,0 +1,17 @@
+{
+  "name": "easy-menu",
+  "description": "An application to allow users to search for the most popular dishes at restaurants.",
+  "main": "index.js",
+  "authors": [
+    "Seth Perry"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
