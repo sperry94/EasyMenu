@@ -1,8 +1,8 @@
 {
   "name": "easy-menu",
   "version": "1.0.0",
-  "description": "An application to allow users to search for the most popular dishes at restaurants.",
-  "main": "index.js",
+  "description": "An application to allow users to search for the most popular dishes at restaurants. Based on tutorial at http://www.codeproject.com/Articles/1067725/Part-Building-web-app-using-react-js-express-js",
+  "main": "./server/server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
