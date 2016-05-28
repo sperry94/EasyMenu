@@ -1,6 +1,7 @@
 var $ = require("jquery");
 var promise = require("es6-promise");
-var resourceUrl = "http://localhost:8000/api/restaurants";
+var port = process.env.PORT || 8000;
+var resourceUrl = "http://localhost:" + port + "/api/restaurants";
 
 module.exports = {
     addRestaurant: function (restaurant) {
