@@ -1,7 +1,7 @@
 var $ = require("jquery");
 var promise = require("es6-promise");
 var port = process.env.PORT || 8000;
-var resourceUrl = "http://localhost:" + port + "/api/restaurants";
+var resourceUrl = "https://simplemenu.herokuapp.com:" + port + "/api/restaurants";
 
 module.exports = {
     addRestaurant: function (restaurant) {
