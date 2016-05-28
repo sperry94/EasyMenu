@@ -26,5 +26,8 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/sperry94/EasyMenu"
+  },
+  "scripts": {
+      "postinstall": "bower install && gulp"
   }
 }
