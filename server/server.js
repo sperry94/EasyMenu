@@ -3,6 +3,8 @@ var bodyParser = require("body-parser");
 var mongoose = require("mongoose");
 var path = require("path");
 
+var mongoUri = "mongodb://simplemenu:simplemenu@ds019033.mlab.com:19033/restaurantfinder";
+
 var restaurantController = require("./controllers/restaurantController.js");
 
 var app = express();
@@ -14,4 +16,4 @@ app.listen(8000,function(){
     console.log("started listening on port", 8000);
 })
 
-mongoose.connect("mongodb://localhost/restaurantfinder");
+mongoose.connect(mongoUri);
