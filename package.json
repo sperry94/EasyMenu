@@ -29,6 +29,7 @@
     "url": "https://github.com/sperry94/EasyMenu"
   },
   "scripts": {
+      "start": "node ./server/server.js",
       "postinstall": "bower install && gulp"
   }
 }
