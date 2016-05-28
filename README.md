@@ -12,5 +12,6 @@ To get this project working after download run these commands:
 1. npm install
 2. bower install
 3. gulp
-4. nodemon
-5. navigate to localhost:8000
+4. sudo mongod (in another terminal window)
+5. nodemon
+6. navigate to localhost:8000
